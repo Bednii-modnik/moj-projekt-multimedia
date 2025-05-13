@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main></main>
+<section id="wideo-plik">
+    <h2>Wideo z Pliku (MP4)</h2>
+    <p>To jest przykład osadzenia pliku wideo bezpośrednio z folderu projektu za pomocą tagu <code>&lt;video&gt;</code>.</p>
+    <video controls width="600"> 
+        <source src="video/fudzijama.mp4" type="video/mp4">
+        Twoja przeglądarka nie obsługuje tagu video lub formatu MP4. Spróbuj użyć innej przeglądarki.
+    </video>
+    <p class="wskazowka">
+        Pamiętaj, że ścieżka w atrybucie <code>src</code> musi być poprawna względem pliku <code>index.html</code>.
+        Użyliśmy tutaj <code>video/fudzijama.mp4</code>, ponieważ plik znajduje się w podfolderze 'video'.
+    </p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zu7XWu5wrMg?si=UP_Z1eoGXw448HfF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="dziek">
+    <audio controls=""><source src="audio/trap-future-bass.mp3" type="audio/mpeg"></audio>
+    </section>
+</section>
+</body>
+</html>
